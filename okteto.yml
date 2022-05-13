@@ -1,0 +1,9 @@
+name: okteto-stignore
+
+dev:
+  okteto-stignore:
+    image: alpine
+    command: sh
+    forward:
+      - 8080:8080
+    autocreate: true
